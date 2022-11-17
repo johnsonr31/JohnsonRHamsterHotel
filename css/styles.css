@@ -280,4 +280,39 @@ h6{
     width: 200px;
     height: 153px;
     object-fit: scale-down;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.twentyFour{
+    width: 150px;
+    height: 101px;
+    object-fit: scale-down;
+}
+
+.breakfast{
+    width: 150px;
+    height: 104px;
+    object-fit: scale-down;
+}
+
+.valet{
+    width: 100px;
+    height: 115px;
+    object-fit: scale-down;
+    align-self: center;
+}
+
+.pool{
+    width: 155px;
+    height: 110px;
+    object-fit: scale-down;
+}
+
+@media screen and (min-width: 760px){
+    .reserve{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
