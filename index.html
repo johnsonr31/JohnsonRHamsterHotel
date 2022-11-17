@@ -14,6 +14,8 @@
   <!-- This is the start of the nav -->
 
   <ul class="nav justify-content-center">
+    <img class="d-none d-s-block" src="./hotelMarkupAssets/Logo.png"
+            alt="The logo of the hotel, which is a stylized depiction of a hamster in a hamster-wheel">
     <li class="nav-item">
       <a class="nav-link active padding-top reserveNav" aria-current="page" href="#">Overview</a>
     </li>
@@ -28,15 +30,13 @@
           alt="The logo of the hotel, which is a stylized depiction of a hamster in a hamster-wheel">
     </li>
     <li class="nav-item">
-      <a class="nav-link padding-top reserveNav" href="#">Amenities</a>
+      <a class="nav-link padding-top reserveNav" href="#amenities">Amenities</a>
     </li>
     <li class="nav-item">
       <a class="nav-link padding-top reserveNav" href="#">Contact</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link padding-top reserveNav" href="#">
-        <div>Reserve</div>
-      </a>
+      <a class="nav-link padding-top reserveNav" href="#reserve">Reserve</a>
     </li>
   </ul>
 
@@ -212,7 +212,7 @@
     </div>
   </div>
 
-  <div class="container-fluid amenities">
+  <div class="container-fluid amenities" id="amenities">
     <div class="row">
       <div class="col-12">
         <h2 class="rooms-heading">Amenities</h2>
@@ -220,7 +220,7 @@
           most relaxing stay we can provide.</p>
       </div>
       <div class="col-12 amenity">
-        <div class="row ">
+        <div class="row amAlign">
           <div class="col-3 amIcon">
             <img class="twentyFour" src="./hotelMarkupAssets/24hour.png" alt="An icon of a bell with the number 24 on it">
             <p class="amText">24 hour room service</p>
@@ -260,7 +260,7 @@
 
   <br>
 
-  <div class="container reserveRoom">
+  <div class="container reserveRoom" id="reserve">
     <div class="row reserve">
       <div class="col-12">
         <h2>Reserve a Room</h2>
@@ -293,7 +293,7 @@
         </div>
       </div>
       <div class="col-12">
-        <img class="reserveImg" src="./hotelMarkupAssets/hamsterreserve.jpg"
+        <img class="reserveImg d-none d-lg-block" src="./hotelMarkupAssets/hamsterreserve.jpg"
           alt="A picture of two hamsters with a bunch of seeds and bark around them">
       </div>
     </div>

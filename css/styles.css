@@ -40,6 +40,7 @@ p {
     background-size: cover;
     background-position: 100% 56%;
     margin-bottom: 5em;
+    background-repeat: no-repeat;
 
 }
 .hero-background {
@@ -124,6 +125,7 @@ p {
 .rooms {
     background-image: url(../hotelMarkupAssets/bg2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h2 {
@@ -200,6 +202,7 @@ h6{
     background-color: #000324;
     color: #E5FEFF;
     text-align: center;
+    background-size: auto;
     padding-bottom: 2.5em;
 }
 
@@ -336,6 +339,17 @@ h6{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-content: center;
+    }
+
+    .amAlign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .amenity{
         align-content: center;
     }
 }
