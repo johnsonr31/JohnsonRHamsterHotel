@@ -39,6 +39,7 @@ p {
     height: 500px;
     background-size: cover;
     background-position: 100% 56%;
+    margin-bottom: 5em;
 
 }
 .hero-background {
@@ -60,6 +61,23 @@ p {
     height: 234;
     height: 234px;
     object-fit: cover;
+    object-position: 100% 20%;
+}
+
+.packageImg2 {
+    width: 561px;
+    height: 234;
+    height: 234px;
+    object-fit: cover;
+    object-position: 100% 40%;
+}
+
+.packageImg3 {
+    width: 561px;
+    height: 234;
+    height: 234px;
+    object-fit: cover;
+    object-position: 100% 68%;
 }
 
 .packages {
@@ -87,7 +105,8 @@ p {
 .nav {
     background-color: #000324;
     color: #FFFFFF;
-}
+    padding-bottom: 0.5em;
+    }
 
 .nav-link {
     color: #FFFFFF;
@@ -181,6 +200,7 @@ h6{
     background-color: #000324;
     color: #E5FEFF;
     text-align: center;
+    padding-bottom: 2.5em;
 }
 
 .reserve{
@@ -209,7 +229,7 @@ h6{
 }
 
 .padding-top{
-    padding-top: 5em;
+    margin-top: 5em;
 }
 
 .price{
@@ -245,4 +265,19 @@ h6{
 
 .card-img-top{
     height: 190px;
+}
+
+.reserveNav:hover{
+    border: solid #E5FEFF 0.1em;
+    color: #E8E8E8;
+}
+
+.reserveNav{
+    border: solid transparent 0.1em;
+}
+
+.award{
+    width: 200px;
+    height: 153px;
+    object-fit: scale-down;
 }
