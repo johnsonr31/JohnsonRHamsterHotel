@@ -309,8 +309,54 @@ h6{
     object-fit: scale-down;
 }
 
-@media screen and (min-width: 760px){
-    .reserve{
+@media screen and (max-width: 900px){
+    .center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    .package{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .package2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .hamsterHome{
+        padding: 3em;
+    }
+    .package{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .package2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .package3{
         display: flex;
         flex-direction: column;
         justify-content: center;
