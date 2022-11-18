@@ -213,7 +213,7 @@ h6{
     justify-content: center;
     text-align: center;
     background-color: #000324;
-    color: #FFFFFF;
+    color: #E5FEFF;
 }
 
 .center{
@@ -316,15 +316,34 @@ h6{
     object-fit: scale-down;
 }
 
+
 @media screen and (max-width: 900px){
+    p{
+        font-size: 1.5em;
+    }
+
+    h1{
+        font-size: 3.5em;
+    }
+
+    .reserve{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .center{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         align-self: center;
+        text-align: center;
     }
 
+    .hero-1{
+        width: auto;
+    }
     .opening{
         display: flex;
         justify-content: center;
@@ -334,14 +353,20 @@ h6{
     .welcome{
         display: flex;
         justify-content: center;
-        margin: 0 auto;
+        margin: auto;
         flex-direction: column;
+        align-items: center;
     }
     
+    .container{
+        display: flex;
+        justify-content: center;
+    }
     
     .package{
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
         justify-content: center;
     }
     
@@ -349,17 +374,55 @@ h6{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 0 auto;
         align-content: center;
+    }
+
+    .packs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        align-self: auto;
+        width: auto;
+    }
+
+    .packages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .amAlign{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 0 auto;
         align-content: center;
     }
 
     .amenity{
         align-content: center;
+    }
+
+    .rooms{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 30em;
     }
 }
