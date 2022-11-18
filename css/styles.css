@@ -120,6 +120,7 @@ p {
     height: 35em;
     padding-left: 7em;
     padding-right: 7em;
+    flex-direction: row;
 }
 
 .rooms {
@@ -229,6 +230,7 @@ h6{
     text-align: center;
     margin-top: 5em;
     margin-bottom: 5em;
+    background-color: #000324;
 }
 
 .padding-top{
@@ -253,7 +255,9 @@ h6{
 }
 
 .available{
-    margin-top: 2.9em;
+    margin-top: 2.2em;
+    font-family: SourceSansPro-Bold;
+    font-size: 1em;
 }
 
 .hamsterHome{
@@ -321,14 +325,20 @@ h6{
         align-self: center;
     }
 
-    .cards{
+    .opening{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        align-self: center;
     }
 
+    .welcome{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    
+    
     .package{
         display: flex;
         flex-direction: column;
@@ -351,28 +361,5 @@ h6{
 
     .amenity{
         align-content: center;
-    }
-}
-@media screen and (max-width: 1050px) {
-    .hamsterHome{
-        padding: 3em;
-    }
-    .package{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .package2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .package3{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 }
